@@ -478,7 +478,7 @@ function QuizPhase({
           className={cn(
             "w-full py-3 rounded-lg font-semibold text-sm flex items-center justify-center gap-2 transition-all",
             selectedAnswer !== null
-              ? `bg-${colorToken} text-background hover:opacity-90`
+              ? cn(bgClass, "text-background hover:opacity-90")
               : "bg-secondary text-muted-foreground cursor-not-allowed"
           )}
         >
@@ -558,14 +558,14 @@ function ResultsPhase({
   result,
   questions,
   answers,
-  colorToken,
+  bgClass,
   onRetry,
   onBackToReport,
 }: {
   result: AssessmentResult;
   questions: QuizQuestion[];
   answers: (number | null)[];
-  colorToken: string;
+  bgClass: string;
   onRetry: () => void;
   onBackToReport: () => void;
 }) {
@@ -772,7 +772,7 @@ function ResultsPhase({
         {!result.passed && (
           <button
             onClick={onRetry}
-            className={`flex-1 py-3 rounded-lg font-semibold text-sm bg-${colorToken} text-background hover:opacity-90 transition-opacity flex items-center justify-center gap-2`}
+            className={cn("flex-1 py-3 rounded-lg font-semibold text-sm text-background hover:opacity-90 transition-opacity flex items-center justify-center gap-2", bgClass)}
           >
             Retry Assessment
           </button>

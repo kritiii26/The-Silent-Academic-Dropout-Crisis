@@ -234,7 +234,7 @@ export function SubjectLearningView({
                         className="absolute left-[30px] top-[48px] w-[2px] h-[16px]"
                         style={{
                           background: topic.completed
-                            ? `hsl(var(--${colorToken}))`
+                            ? "hsl(var(--chart-1))"
                             : "hsl(var(--border))",
                         }}
                       />
