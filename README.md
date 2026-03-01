@@ -1,6 +1,10 @@
 PRISM: Adaptive Mastery & Knowledge Tracing System
 A dynamic educational engine that identifies foundational gaps and personalizes learning paths in real-time.
 
+PRESENTATION LINK : https://www.canva.com/design/DAHCqx4B6ag/5fu6GHg8X3J0mJ4PzzituA/edit?utm_content=DAHCqx4B6ag&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+DEPLOYED LINK : https://the-silent-academic-dropout-crisis-three.vercel.app/
+DEMO LINK : https://drive.google.com/file/d/1V6YgnXO2g7ipIfXj-1V4jj4rLUlfYXdz/view?usp=drive_link
+
 1. Problem Statement
 The Hidden Foundation Gap
 India produces over 15 million graduates annually, yet a vast majority enter higher education with "hollow foundations." Traditional classrooms assume a uniform learning pace, leaving students who miss a single core concept (like basic algebra) unable to grasp advanced topics (like calculus).
@@ -153,8 +157,6 @@ Long-Term: Integration with national academic credit banks (ABC) to provide veri
 Yash Kumar :Lead Architect,"System design, Backend Logic & Knowledge Tracing"
 Kritika Pandey :Frontend Engineer,"Adaptive UI, Map Visualizations & Dashboards"
 Dakshraj Bole :Data & Content,"Curriculum Mapping, API Integration & Testing"
-
-
 
 
 
